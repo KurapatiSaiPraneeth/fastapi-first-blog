@@ -1,6 +1,8 @@
-from db.base_class import Base
 from sqlalchemy import Boolean, Column, Integer, String
 from sqlalchemy.orm import relationship
+from db.base_class import Base
+
+from .blog import Blog
 
 class User(Base):
     id = Column(Integer, primary_key=True, index=True)

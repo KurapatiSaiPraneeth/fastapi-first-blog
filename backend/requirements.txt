@@ -4,4 +4,5 @@ sqlalchemy==2.0.30
 python-dotenv==1.0.0
 alembic==1.11.1
 pydantic[email]
-passlib[bcrypt]
+bcrypt==3.2.0
+passlib==1.7.4
